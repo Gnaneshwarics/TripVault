@@ -1,0 +1,353 @@
+/* ==========================
+   GOOGLE FONT
+========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    overflow-x:hidden;
+    padding-top:80px;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+.trip-navbar{
+    background:linear-gradient(90deg,#0d6efd,#00b4ff);
+    padding:15px 0;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.logo{
+    color:#fff !important;
+    font-size:30px;
+    font-weight:700;
+    text-decoration:none;
+}
+
+.trip-navbar .nav-link{
+    color:white !important;
+    font-weight:600;
+    margin-left:20px;
+    transition:.3s;
+}
+
+.trip-navbar .nav-link:hover{
+    color:#ffe066 !important;
+}
+
+.register-btn{
+    background:#ffc107;
+    color:#000;
+    border-radius:30px;
+    padding:10px 25px;
+    border:none;
+    font-weight:600;
+}
+
+.register-btn:hover{
+    background:white;
+    color:#000;
+}
+
+.logout-btn{
+    background:#dc3545;
+    color:white;
+    border-radius:30px;
+    padding:10px 25px;
+    border:none;
+}
+
+.logout-btn:hover{
+    background:#bb2d3b;
+    color:white;
+}
+
+/* ==========================
+   LOGIN
+========================== */
+
+.login-page{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(135deg,#0d6efd,#00c6ff);
+}
+
+.login-card{
+    background:white;
+    padding:45px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.18);
+}
+
+.login-card h2{
+    text-align:center;
+    font-weight:700;
+}
+
+.login-card p{
+    text-align:center;
+    color:#666;
+    margin-bottom:30px;
+}
+
+.login-card label{
+    font-weight:600;
+}
+
+.login-card .form-control{
+    height:50px;
+    border-radius:12px;
+}
+
+.login-btn{
+    background:linear-gradient(90deg,#0d6efd,#00c6ff);
+    border:none;
+    height:50px;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:600;
+}
+
+/* ==========================
+   REGISTER
+========================== */
+
+.register-page{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(135deg,#00b09b,#96c93d);
+}
+
+.register-card{
+    background:white;
+    padding:45px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.18);
+}
+
+.register-card h2{
+    text-align:center;
+    font-weight:700;
+}
+
+.register-card p{
+    text-align:center;
+    color:#666;
+    margin-bottom:30px;
+}
+
+.register-card label{
+    font-weight:600;
+}
+
+.register-card .form-control{
+    height:50px;
+    border-radius:12px;
+}
+
+.register-btn{
+    background:linear-gradient(90deg,#198754,#20c997);
+    border:none;
+    height:50px;
+    border-radius:12px;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+}
+
+/* ==========================
+   DASHBOARD
+========================== */
+
+.dashboard{
+    min-height:100vh;
+    background:#f4f8fc;
+    padding:50px 0;
+}
+
+.dashboard-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+    flex-wrap:wrap;
+}
+
+.dashboard-top h2{
+    font-weight:700;
+}
+
+.dashboard-top p{
+    color:#666;
+}
+
+.profile-icon{
+    color:#0d6efd;
+}
+
+.dashboard-card{
+    color:white;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    transition:.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.dashboard-card:hover{
+    transform:translateY(-8px);
+}
+
+.blue-card{
+    background:linear-gradient(135deg,#0072ff,#00c6ff);
+}
+
+.green-card{
+    background:linear-gradient(135deg,#00b09b,#96c93d);
+}
+
+.orange-card{
+    background:linear-gradient(135deg,#ff8008,#ffc837);
+}
+
+.trip-section{
+    margin-top:60px;
+}
+
+.trip-box{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.trip-box:hover{
+    transform:translateY(-10px);
+}
+
+.trip-box img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.trip-info{
+    padding:20px;
+}
+
+.trip-info h4{
+    font-weight:700;
+}
+
+.trip-info p{
+    color:#666;
+}
+
+.trip-info span{
+    color:#0d6efd;
+    font-size:20px;
+    font-weight:700;
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.btn{
+    border-radius:10px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+    background:#0d1b2a;
+    color:white;
+    margin-top:70px;
+}
+
+footer h3,
+footer h4{
+    font-weight:700;
+}
+
+footer p{
+    color:#ddd;
+}
+
+footer svg{
+    cursor:pointer;
+    transition:.3s;
+}
+
+footer svg:hover{
+    color:#00c6ff;
+    transform:scale(1.15);
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:992px){
+
+.dashboard-top{
+    text-align:center;
+    justify-content:center;
+    gap:20px;
+}
+
+.trip-navbar .nav-link{
+    margin-left:0;
+    margin-top:10px;
+}
+
+.register-btn,
+.logout-btn{
+    width:100%;
+    margin-top:15px;
+}
+
+}
+
+@media(max-width:768px){
+
+.login-card,
+.register-card{
+    padding:30px;
+}
+
+.dashboard-card{
+    margin-bottom:20px;
+}
+
+.trip-box{
+    margin-bottom:25px;
+}
+
+.logo{
+    font-size:24px;
+}
+
+}
